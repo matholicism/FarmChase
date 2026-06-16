@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #ffffff;
+}
+
+:root {
+  --color-text-primary: #1a1a1a;
+  --color-text-secondary: #666666;
+  --color-background-primary: #ffffff;
+  --color-background-secondary: #f5f5f4;
+  --color-border-secondary: #d4d2cc;
+  --color-border-tertiary: #e8e6e0;
+  --font-sans: sans-serif;
+  --border-radius-md: 6px;
+  --border-radius-lg: 10px;
+}
